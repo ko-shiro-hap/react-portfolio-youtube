@@ -31,6 +31,7 @@ function App() {
         </div>
       </header>
 
+      {/* メインセクション */}
       <section className="text-gray-700" id="home">
         <div className="flex container mx-auto py-20 px-5 flex-col md:flex-row items-center">
           <div className="md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left">
@@ -59,6 +60,7 @@ function App() {
         </div>
       </section>
 
+      {/* アバウトセクション */}
       <section className="text-gray-700 border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
@@ -218,6 +220,64 @@ function App() {
                       />
                     </svg>
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* スキルセクション */}
+      <section className="text-gray-700 border-t border-gray-200">
+        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+          {/* left side */}
+          <div className="w-full lg:w-1/2 mx-auto mb-10 lg:mb-0">
+            <img
+              src="./images/kevin-bhagat-548zkUvqmlw-unsplash.jpg"
+              alt=""
+              className="rounded w-full"
+            />
+          </div>
+          {/* right side */}
+          <div className="lg:pl-12 lg:py-6 w-full lg:w-1/2">
+            <h1 className="text-2xl sm:text-3xl font-medium text-gray-900 mb-10">
+              My Skills
+            </h1>
+            <div className="w-full">
+              <h2>HTML</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "85%" }}
+                >
+                  85%
+                </div>
+              </div>
+              <h2>CSS</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "80%" }}
+                >
+                  80%
+                </div>
+              </div>
+              <h2>JavaScript</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "70%" }}
+                >
+                  70%
+                </div>
+              </div>
+              <h2>PHP</h2>
+              <div className="shadow bg-green-100 mt-2 w-full">
+                <div
+                  className="bg-green-600 text-xs leading-none py-1 text-center text-white"
+                  style={{ width: "60%" }}
+                >
+                  60%
                 </div>
               </div>
             </div>
